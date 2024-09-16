@@ -2752,7 +2752,7 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 30%; /* aaron:將風格預設寬度改為30% */
 		}
 
 			.tiles article .image {
@@ -2827,7 +2827,11 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: 70%; /* aaron:將風格另一種寬度改為70% */
+			}
+
+			.tiles article:nth-child(5){
+				width: 20%; /* aaron:將第5個風格寬度改為100% */
 			}
 
 			.tiles article:nth-child(6n - 5):before {
@@ -2938,7 +2942,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #388565;
 		}
 
 			.spotlights > section > .image {
@@ -3415,7 +3419,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.4;
 			position: absolute;
 			top: 0;
 			width: 100%;
