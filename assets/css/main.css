@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		 background: #3565a0; 
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2942,7 +2942,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #388565;
+			background-color: #459c78;
 		}
 
 			.spotlights > section > .image {
@@ -3263,7 +3263,7 @@ input, select, textarea {
 		}
 
 			#header.alt.style1 .logo strong {
-				color: #6fc3df;
+				color: #92cfe1;
 			}
 
 			#header.alt.style2 .logo strong {
@@ -3495,11 +3495,11 @@ input, select, textarea {
 			}
 
 		#banner.style1:after {
-			background-color: #6fc3df;
+			background-color: #3a6d81;
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			background-color: #594ba0;
 		}
 
 		#banner.style3:after {
